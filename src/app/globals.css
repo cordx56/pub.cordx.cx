@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.breadcrumbs-nav {
+  @apply text-2xl;
+}
+.breadcrumbs-nav ol {
+  @apply flex justify-center;
+}
+.breadcrumbs-nav ol li::before {
+  @apply mx-2;
+  content: "\0bb";
+}
+.breadcrumbs-nav ol li:first-child::before {
+  display: none;
+}
