@@ -17,7 +17,9 @@ const TechBookFest14 = () => {
           <h4 className="h3" id="repo">
             Repository
           </h4>
+          <p>ちょっと待っててね</p>
           <h4 className="h3">参考文献</h4>
+          <p>ちょっと待っててね（書きかけ）</p>
           <ul className="ul">
             <li>
               <a href="https://smlfamily.github.io/">
